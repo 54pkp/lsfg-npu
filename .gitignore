@@ -1,0 +1,11 @@
+# Track research reports; keep downloaded SDKs and upstream source trees local.
+/research/*
+!/research/*.md
+!/research/repo-audit/
+/research/repo-audit/*
+!/research/repo-audit/*.md
+
+# Local editor and operating-system files.
+.DS_Store
+Thumbs.db
+*.tmp
